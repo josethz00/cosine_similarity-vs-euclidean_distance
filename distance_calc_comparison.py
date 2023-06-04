@@ -15,19 +15,19 @@ def compare_vector_distances():
 
     # Calculate Euclidean distances and cosine similarities
     print("DISTANCE BETWEEN VECTORS IN LOW DIMENSIONAL SPACE")
-    print("Euclidean distance between v1_low and v2_low: ", euclidean_distance(v1_low, v2_low))
-    print("Euclidean distance between v1_low and v3_low: ", euclidean_distance(v1_low, v3_low))
+    print("Euclidean distance between v1_low and v2_low: ", round(euclidean_distance(v1_low, v2_low), 3))
+    print("Euclidean distance between v1_low and v3_low: ", round(euclidean_distance(v1_low, v3_low), 3))
 
-    print("Cosine similarity between v1_low and v2_low: ", 1 - cosine_similarity(v1_low, v2_low))
-    print("Cosine similarity between v1_low and v3_low: ", 1 - cosine_similarity(v1_low, v3_low))
+    print("Cosine similarity between v1_low and v2_low: ", round(1 - cosine_similarity(v1_low, v2_low), 3))
+    print("Cosine similarity between v1_low and v3_low: ", round(1 - cosine_similarity(v1_low, v3_low), 3))
     print("\n\n")
 
     print("DISTANCE BETWEEN VECTORS IN HIGH DIMENSIONAL SPACE")
-    print("Euclidean distance between v1_high and v2_high: ", euclidean_distance(v1_high, v2_high))
-    print("Euclidean distance between v1_high and v3_high: ", euclidean_distance(v1_high, v3_high))
+    print("Euclidean distance between v1_high and v2_high: ", round(euclidean_distance(v1_high, v2_high), 3))
+    print("Euclidean distance between v1_high and v3_high: ", round(euclidean_distance(v1_high, v3_high), 3))
 
-    print("Cosine similarity between v1_high and v2_high: ", 1 - cosine_similarity(v1_high, v2_high))
-    print("Cosine similarity between v1_high and v3_high: ", 1 - cosine_similarity(v1_high, v3_high))
-    print("\n\n")
+    print("Cosine similarity between v1_high and v2_high: ", round(1 - cosine_similarity(v1_high, v2_high), 3))
+    print("Cosine similarity between v1_high and v3_high: ", round(1 - cosine_similarity(v1_high, v3_high), 3))
+    print("\n")
 
 compare_vector_distances()
