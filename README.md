@@ -8,4 +8,4 @@ Cosine Similarity VS Euclidean Distance comparison
 
 ## Print in the terminal the difference between the results in lower and higher dimensional vectors
 
-`python3 
+`python3 distance_calc_comparison.py`
