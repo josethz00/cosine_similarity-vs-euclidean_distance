@@ -9,9 +9,9 @@ def compare_vector_distances():
     v2_low = np.random.rand(2)
     v3_low = np.random.rand(2)
 
-    v1_high = np.random.rand(750)
-    v2_high = np.random.rand(750)
-    v3_high = np.random.rand(750)
+    v1_high = np.random.rand(1500)
+    v2_high = np.random.rand(1500)
+    v3_high = np.random.rand(1500)
 
     # Calculate Euclidean distances and cosine similarities
     print("DISTANCE BETWEEN VECTORS IN LOW DIMENSIONAL SPACE")
